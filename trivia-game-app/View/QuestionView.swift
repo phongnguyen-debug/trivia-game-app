@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct QuestionView: View {
-    @StateObject var triviaManager = TriviaManager()
+    @EnvironmentObject var triviaManager: TriviaManager
     var body: some View {
         if triviaManager.reachEnd {
             VStack(spacing: 20) {
@@ -18,13 +18,25 @@ struct QuestionView: View {
                 Text("Congratulation !!! you completed the game")
                 Text("Your scored \(triviaManager.score) out of length \(triviaManager.length)")
                 
-                Button {
-                    Task.init() {
-                        await triviaManager.fetchTrivia()
+                HStack(spacing: 20) {
+                    NavigationLink {
+                        ContentView()
+                    } label: {
+                        PrimaryButton(text: "Change level")
                     }
-                } label: {
-                    PrimaryButton(text: "Play again!!")
+                    .navigationBarHidden(true)
+                    
+                    Spacer()
+                    
+                    Button {
+                        Task.init() {
+                            await triviaManager.fetchTrivia(level: triviaManager.currentLevel)
+                        }
+                    } label: {
+                        PrimaryButton(text: "Play again!!")
+                    }
                 }
+                
             }
             .foregroundColor(Color("AccentColor"))
             .padding()
@@ -52,13 +64,11 @@ struct QuestionView: View {
                             .environmentObject(triviaManager)
                     }
                 }
-                if triviaManager.answerSelected {
-                    Button {
-                        triviaManager.gotoNextQuestion()
-                    } label: {
-                        PrimaryButton(text: "Next", background: triviaManager.answerSelected ? Color("AccentColor") : Color(hue: 1.0, saturation: 0.0, brightness: 0.564, opacity: 0.327))
-                    }
-                }
+                Button {
+                    triviaManager.gotoNextQuestion()
+                } label: {
+                    PrimaryButton(text: "Next", background: triviaManager.answerSelected ? Color("AccentColor") : Color(hue: 1.0, saturation: 0.0, brightness: 0.564, opacity: 0.327))
+                }.disabled(!triviaManager.answerSelected)
                 Spacer()
             }
             .padding()
@@ -72,5 +82,6 @@ struct QuestionView: View {
 struct QuestionView_Previews: PreviewProvider {
     static var previews: some View {
         QuestionView()
+            .environmentObject(TriviaManager())
     }
 }

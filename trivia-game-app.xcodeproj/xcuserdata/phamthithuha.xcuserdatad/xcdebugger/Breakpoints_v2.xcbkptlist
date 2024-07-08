@@ -7,32 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5113F96C-5397-48A9-8D2B-A10E505A0BAE"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "trivia-game-app/View/ContentView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "E8088CDD-AE4F-4A2D-A727-F4DABE7B841D"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "trivia-game-app/TriviaManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "fetchTrivia()"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "fetchTrivia(level:)"
             landmarkType = "7">
             <Locations>
                <Location
@@ -65,6 +49,96 @@
                   endingLineNumber = "29"
                   offsetFromSymbolStart = "388">
                </Location>
+               <Location
+                  uuid = "E8088CDD-AE4F-4A2D-A727-F4DABE7B841D - 47e91a56e70ddc75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia(level: Swift.String) async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "E8088CDD-AE4F-4A2D-A727-F4DABE7B841D - 47e91a56e70ddc75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia(level: Swift.String) async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "616">
+               </Location>
+               <Location
+                  uuid = "E8088CDD-AE4F-4A2D-A727-F4DABE7B841D - bdd06f2fda375ae1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia() async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "E8088CDD-AE4F-4A2D-A727-F4DABE7B841D - bdd06f2fda375ae1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia() async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "616">
+               </Location>
+               <Location
+                  uuid = "E8088CDD-AE4F-4A2D-A727-F4DABE7B841D - 47e91a56e70ddc56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia(level: Swift.String) async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "E8088CDD-AE4F-4A2D-A727-F4DABE7B841D - 47e91a56e70ddc56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia(level: Swift.String) async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "616">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -78,9 +152,9 @@
             filePath = "trivia-game-app/TriviaManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "fetchTrivia()"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "fetchTrivia(level:)"
             landmarkType = "7">
             <Locations>
                <Location
@@ -126,9 +200,9 @@
             filePath = "trivia-game-app/TriviaManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "fetchTrivia()"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "fetchTrivia(level:)"
             landmarkType = "7">
             <Locations>
                <Location
@@ -191,118 +265,143 @@
                   endingLineNumber = "31"
                   offsetFromSymbolStart = "60">
                </Location>
+               <Location
+                  uuid = "10B8167E-B037-4C7F-9E85-32A7F3640911 - 47e91a56e70ddc33"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia(level: Swift.String) async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "460">
+               </Location>
+               <Location
+                  uuid = "10B8167E-B037-4C7F-9E85-32A7F3640911 - bbe023ee57d3ccd7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for trivia_game_app.TriviaManager.fetchTrivia(level: Swift.String) async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "10B8167E-B037-4C7F-9E85-32A7F3640911 - 5f07b7171d7c1831"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia(level: Swift.String) async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "10B8167E-B037-4C7F-9E85-32A7F3640911 - 6ca882b47657fa30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia(level: Swift.String) async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "10B8167E-B037-4C7F-9E85-32A7F3640911 - bdd06f2fda375aa7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia() async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "468">
+               </Location>
+               <Location
+                  uuid = "10B8167E-B037-4C7F-9E85-32A7F3640911 - 6cf5ff324bd649b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for trivia_game_app.TriviaManager.fetchTrivia() async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "10B8167E-B037-4C7F-9E85-32A7F3640911 - a8e39466ef5b80a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia() async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "10B8167E-B037-4C7F-9E85-32A7F3640911 - a18aafc576126da4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia() async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "60">
+               </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "174909D6-5432-4CD0-9405-0E482102CEB9"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "trivia-game-app/TriviaManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "fetchTrivia()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "AC6CBCBB-B50E-4E34-9F3D-F6F4C87497DF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "trivia-game-app/TriviaManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "fetchTrivia()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CE12EE81-D490-4850-9AD6-362753B803ED"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "trivia-game-app/Component/AnswerRow.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "body"
-            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "DBC7CF6B-0F51-4620-9516-AAC6E7FA4F44"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "trivia-game-app/TriviaManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "gotoNextQuestion()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "DBC7CF6B-0F51-4620-9516-AAC6E7FA4F44 - 1557313b9c3c18af"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for trivia_game_app.TriviaManager.getTriviaQuestionList() async -&gt; ()"
-                  moduleName = "trivia-game-app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "56"
-                  endingLineNumber = "56"
-                  offsetFromSymbolStart = "844">
-               </Location>
-               <Location
-                  uuid = "DBC7CF6B-0F51-4620-9516-AAC6E7FA4F44 - 4910a8dc6c08cd3e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "trivia_game_app.TriviaManager.gotoNextQuestion() -&gt; ()"
-                  moduleName = "trivia-game-app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "56"
-                  endingLineNumber = "56"
-                  offsetFromSymbolStart = "204">
-               </Location>
-               <Location
-                  uuid = "DBC7CF6B-0F51-4620-9516-AAC6E7FA4F44 - 4910a8dc6c08b2d9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "trivia_game_app.TriviaManager.gotoNextQuestion() -&gt; ()"
-                  moduleName = "trivia-game-app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "55"
-                  endingLineNumber = "55"
-                  offsetFromSymbolStart = "204">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -324,129 +423,361 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "46274503-5781-403C-AC77-C0325A4AAAA7"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "trivia-game-app/TriviaManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "init()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "46274503-5781-403C-AC77-C0325A4AAAA7 - ee515ddb209b249b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "trivia_game_app.TriviaManager.init() -&gt; trivia_game_app.TriviaManager"
-                  moduleName = "trivia-game-app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "964">
-               </Location>
-               <Location
-                  uuid = "46274503-5781-403C-AC77-C0325A4AAAA7 - 31a218e3d77deee8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable () async -&gt; () in trivia_game_app.TriviaManager.init() -&gt; trivia_game_app.TriviaManager"
-                  moduleName = "trivia-game-app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "52">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2E76E9EF-826F-48FF-B788-571AD4711F62"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "trivia-game-app/TriviaManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "init()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "2E76E9EF-826F-48FF-B788-571AD4711F62 - 31a218e3d77deee8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable () async -&gt; () in trivia_game_app.TriviaManager.init() -&gt; trivia_game_app.TriviaManager"
-                  moduleName = "trivia-game-app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "52">
-               </Location>
-               <Location
-                  uuid = "2E76E9EF-826F-48FF-B788-571AD4711F62 - 13d64da40a641306"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) await resume partial function for closure #1 @Sendable () async -&gt; () in trivia_game_app.TriviaManager.init() -&gt; trivia_game_app.TriviaManager"
-                  moduleName = "trivia-game-app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6889B660-D97D-4B6F-BB45-0823223D32FE"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "trivia-game-app/TriviaManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
-            landmarkName = "selectAnswer(answer:selected:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "9EF49DD8-E169-444A-BA53-59ED16AF2C63"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "trivia-game-app/View/QuestionView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "body"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "9EF49DD8-E169-444A-BA53-59ED16AF2C63 - 5cfc2c6b9eefe27c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.Text.lilacTitle() -&gt; some&gt;&gt;.0, SwiftUI.Spacer, SwiftUI.Text)&gt;&gt;, trivia_game_app.ProgressBar, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.ForEach&lt;Swift.Array&lt;trivia_game_app.Answer&gt;, Foundation.UUID, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;)&gt;&gt;, Swift.Optional&lt;SwiftUI.Button&lt;trivia_game_app.PrimaryButton&gt;&gt;, SwiftUI.Spacer)&gt; in trivia_game_app.QuestionView.body.getter : some"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/View/QuestionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1332">
+               </Location>
+               <Location
+                  uuid = "9EF49DD8-E169-444A-BA53-59ED16AF2C63 - b645937cae5efed7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.Text.lilacTitle() -&gt; some&gt;&gt;.0, SwiftUI.Spacer, SwiftUI.Text)&gt;&gt;, trivia_game_app.ProgressBar, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.ForEach&lt;Swift.Array&lt;trivia_game_app.Answer&gt;, Foundation.UUID, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;)&gt;&gt;)&gt; in trivia_game_app.QuestionView.body.getter : some"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/View/QuestionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "1072">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9081B56D-0C8D-49A8-9278-5104F6DD97A7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "trivia-game-app/TriviaManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "fetchTrivia(level:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9081B56D-0C8D-49A8-9278-5104F6DD97A7 - bdd06f2fda375a80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia() async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "9081B56D-0C8D-49A8-9278-5104F6DD97A7 - 6cf5ff324bd64993"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for trivia_game_app.TriviaManager.fetchTrivia() async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "9081B56D-0C8D-49A8-9278-5104F6DD97A7 - a8e39466ef5b8082"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia() async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "9081B56D-0C8D-49A8-9278-5104F6DD97A7 - a18aafc576126d83"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia() async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "9081B56D-0C8D-49A8-9278-5104F6DD97A7 - bdd06f2fda375aa7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia() async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "468">
+               </Location>
+               <Location
+                  uuid = "9081B56D-0C8D-49A8-9278-5104F6DD97A7 - 6cf5ff324bd649b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for trivia_game_app.TriviaManager.fetchTrivia() async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "9081B56D-0C8D-49A8-9278-5104F6DD97A7 - a8e39466ef5b80a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia() async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "9081B56D-0C8D-49A8-9278-5104F6DD97A7 - a18aafc576126da4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia() async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2474DA4-8F9F-4F67-B136-BF93B88923EF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "trivia-game-app/TriviaManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "fetchTrivia(level:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F2474DA4-8F9F-4F67-B136-BF93B88923EF - a8e39466ef5b8355"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia() async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "1000">
+               </Location>
+               <Location
+                  uuid = "F2474DA4-8F9F-4F67-B136-BF93B88923EF - a18aafc576126e54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia() async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "568">
+               </Location>
+               <Location
+                  uuid = "F2474DA4-8F9F-4F67-B136-BF93B88923EF - a8e39466ef5b8355"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia() async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "2000">
+               </Location>
+               <Location
+                  uuid = "F2474DA4-8F9F-4F67-B136-BF93B88923EF - a18aafc576126e54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia() async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ED45E996-1B27-4D91-8A77-02294F292727"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "trivia-game-app/TriviaManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "selectAnswer(answer:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2E39DD7-FEFD-4439-8FB9-6CBA272BEEC9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "trivia-game-app/TriviaManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "selectAnswer(answer:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09D0B75F-6BD6-4E68-9F17-480F679BA630"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "trivia-game-app/TriviaManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchTrivia(level:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "09D0B75F-6BD6-4E68-9F17-480F679BA630 - a06483215b836883"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "trivia_game_app.TriviaManager.fetchTrivia(level: Swift.String) async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "300">
+               </Location>
+               <Location
+                  uuid = "09D0B75F-6BD6-4E68-9F17-480F679BA630 - 47e91a56e70ddcb7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for trivia_game_app.TriviaManager.fetchTrivia(level: Swift.String) async -&gt; ()"
+                  moduleName = "trivia-game-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamthithuha/Desktop/project/trivia-game-app/trivia-game-app/TriviaManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43C118E5-0B63-494F-9974-DB76492820A0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "trivia-game-app/TriviaManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "fetchTrivia(level:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

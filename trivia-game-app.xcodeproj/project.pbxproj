@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D54CEA392C3A5524006837D6 /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54CEA382C3A5524006837D6 /* LevelView.swift */; };
 		D5B132532C358A2C00E5C8C6 /* trivia_game_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B132522C358A2C00E5C8C6 /* trivia_game_appApp.swift */; };
 		D5B132552C358A2C00E5C8C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B132542C358A2C00E5C8C6 /* ContentView.swift */; };
 		D5B132572C358A2D00E5C8C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B132562C358A2D00E5C8C6 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D54CEA382C3A5524006837D6 /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
 		D5B1324F2C358A2C00E5C8C6 /* trivia-game-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trivia-game-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B132522C358A2C00E5C8C6 /* trivia_game_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivia_game_appApp.swift; sourceTree = "<group>"; };
 		D5B132542C358A2C00E5C8C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				D5B132542C358A2C00E5C8C6 /* ContentView.swift */,
 				D5B132872C358ED200E5C8C6 /* QuestionView.swift */,
 				D5B132902C3595F700E5C8C6 /* TriviaView.swift */,
+				D54CEA382C3A5524006837D6 /* LevelView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				D5B132882C358ED200E5C8C6 /* QuestionView.swift in Sources */,
 				D5B132862C358E2B00E5C8C6 /* Extension.swift in Sources */,
 				D5B132912C3595F700E5C8C6 /* TriviaView.swift in Sources */,
+				D54CEA392C3A5524006837D6 /* LevelView.swift in Sources */,
 				D5B1328A2C358FAE00E5C8C6 /* ProgressBar.swift in Sources */,
 				D5B132552C358A2C00E5C8C6 /* ContentView.swift in Sources */,
 				D5B1328F2C35921E00E5C8C6 /* AnswerRow.swift in Sources */,

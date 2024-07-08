@@ -10,7 +10,7 @@ import SwiftUI
 struct AnswerRow: View {
     var answer: Answer
     @State var isSelected = false
-    @StateObject var triviaManager = TriviaManager()
+    @EnvironmentObject var triviaManager: TriviaManager
     
     var green = Color(hue: 0.437, saturation: 0.711, brightness: 0.711)
     var red = Color(hue: 0.71, saturation: 0.094, brightness: 0.1)
@@ -34,7 +34,8 @@ struct AnswerRow: View {
         .onTapGesture {
             if !triviaManager.answerSelected {
                 isSelected = true
-                triviaManager.selectAnswer(answer: answer, selected: isSelected)
+                triviaManager.selectAnswer(answer: answer)
+                triviaManager.setAnswerSelected(seleted: true)
             }
         }
     }
@@ -43,5 +44,6 @@ struct AnswerRow: View {
 struct AnswerRow_Previews: PreviewProvider {
     static var previews: some View {
         AnswerRow(answer: Answer(text: "Single", isCorrect: false))
+            .environmentObject(TriviaManager())
     }
 }

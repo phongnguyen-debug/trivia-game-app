@@ -9,27 +9,36 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
-    //@StateObject var triviaManager = TriviaManager()
     var body: some View {
         NavigationView {
             VStack(spacing: 40) {
                 VStack(spacing: 20) {
-                    Text("Trivia Game")
+                    Text("Let choice level")
                         .lilacTitle()
-                    Text("Are you ready to test your trivia skills?")
+                    Text("Please choice your level to start game.")
                         .foregroundColor(Color("AccentColor"))
                 }
                 NavigationLink {
-                    TriviaView()
-//                        .environmentObject(triviaManager)
+                    LevelView(level: "easy")
                 } label: {
-                    PrimaryButton(text: "Let's go!")
+                    PrimaryButton(text: "Easy Level")
+                }
+                NavigationLink {
+                    LevelView(level: "medium")
+                } label: {
+                    PrimaryButton(text: "Medium Level")
+                }
+                NavigationLink {
+                    LevelView(level: "hard")
+                } label: {
+                    PrimaryButton(text: "Hard Level")
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .edgesIgnoringSafeArea(.all)
             .background(Color(red: 0.984313725490196, green: 0.9294117647058824, blue: 0.84705882355294118))
         }
+        .navigationBarHidden(true)
     }    
 }
 

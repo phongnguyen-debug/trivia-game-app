@@ -18,29 +18,34 @@ class TriviaManager: ObservableObject {
     @Published private(set) var answerChoices: [Answer] = []
     @Published private(set) var progress:CGFloat = 0.00
     @Published private(set) var score = 0
+    @Published private(set) var currentLevel = "";
     
-    init() {
-        Task.init() {
-            await fetchTrivia()
-        }
-    }
+//    init() {
+//        Task.init() {
+//            await fetchTrivia()
+//        }
+//    }
     
-    func fetchTrivia() async {
-        guard let url = URL(string: "https://opentdb.com/api.php?amount=10") else {fatalError("Missing URL")}
+    func fetchTrivia(level: String) async {
+        guard let url = URL(string: "https://opentdb.com/api.php?amount=10&difficulty=\(level)") else {fatalError("Missing URL")}
         do {
+            print("fetch data with level: \(level)")
+            setCurrentLevel(level: level)
             let (data, response) = try await URLSession.shared.data(from: url)
-//            guard (response as? HTTPURLResponse)?.statusCode == 200 else {fatalError("Data not found")}
-            let jsonDecoder = JSONDecoder()
-            jsonDecoder.keyDecodingStrategy = .convertFromSnakeCase
-            let decodedData = try jsonDecoder.decode(Trivia.self, from: data)
-            DispatchQueue.main.sync {
-                self.index = 0
-                self.score = 0
-                self.progress = 0.00
-                self.reachEnd = false
-                self.trivia = decodedData.results
-                self.length = decodedData.results.count
-                self.setQuestion()
+            let httpResponse = response as? HTTPURLResponse
+            if httpResponse?.statusCode == 200 {
+                let jsonDecoder = JSONDecoder()
+                jsonDecoder.keyDecodingStrategy = .convertFromSnakeCase
+                let decodedData = try jsonDecoder.decode(Trivia.self, from: data)
+                DispatchQueue.main.sync {
+                    self.index = 0
+                    self.score = 0
+                    self.progress = 0.00
+                    self.reachEnd = false
+                    self.trivia = decodedData.results
+                    self.length = decodedData.results.count
+                    self.setQuestion()
+                }
             }
         } catch {
             print("Error fetching data: \(error)")
@@ -67,10 +72,17 @@ class TriviaManager: ObservableObject {
         }
     }
     
-    func selectAnswer(answer: Answer, selected: Bool) {
+    func selectAnswer(answer: Answer) {
         if answer.isCorrect {
-            score += 1
+            self.score += 1
         }
-        answerSelected = selected
+    }
+    
+    func setAnswerSelected(seleted: Bool) {
+        self.answerSelected = seleted
+    }
+    
+    func setCurrentLevel(level: String) {
+        self.currentLevel = level
     }
 }
